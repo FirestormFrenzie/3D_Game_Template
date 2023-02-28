@@ -615,7 +615,7 @@ transform = Transform( 42.2186, 0, 0, 0, 1.09671, 0, 0, 0, 9.10352, 0, 0, 0 )
 shape = SubResource( 24 )
 
 [node name="runwaygrass2" type="StaticBody" parent="."]
-transform = Transform( 1.82993, 0, 0, 0, 0.84993, 1.023, 0, -0.526896, 1.65019, -1410.33, -189.36, 53.6821 )
+transform = Transform( 1.82993, 0, 0, 0, 0.84993, 1.023, 0, -0.526896, 1.65019, -1410.33, -189.36, 34.4977 )
 
 [node name="MeshInstance" type="MeshInstance" parent="runwaygrass2"]
 transform = Transform( 42.0084, 0, 0, 0, 1, 0, 0, 0, 9.66134, 0, 0, 0 )
