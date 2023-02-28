@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=2]
+[gd_scene load_steps=26 format=2]
 
 [ext_resource path="res://Materials/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Textures/detailed dirt.png" type="Texture" id=2]
@@ -66,6 +66,13 @@ albedo_color = Color( 0.501961, 1, 0.431373, 1 )
 albedo_texture = ExtResource( 2 )
 
 [sub_resource type="BoxShape" id=24]
+
+[sub_resource type="CubeMesh" id=25]
+
+[sub_resource type="SpatialMaterial" id=26]
+albedo_color = Color( 0, 0.180392, 1, 1 )
+
+[sub_resource type="BoxShape" id=27]
 
 [node name="level 1" type="Spatial"]
 
@@ -519,7 +526,7 @@ transform = Transform( 42.2186, 0, 0, 0, 1.09671, 0, 0, 0, 9.10352, 0, 0, 0 )
 shape = SubResource( 24 )
 
 [node name="runwaygrass7" type="StaticBody" parent="."]
-transform = Transform( 1.82993, 0, 0, 0, 1, 0.0018298, 0, -0.000942498, 1.94156, -1697.8, -2.91161, -38.9713 )
+transform = Transform( 1.82993, 0, 0, 0, 1, 0.0018298, 0, -0.000942498, 1.94156, -1882.09, -2.91161, 8.86495 )
 
 [node name="MeshInstance" type="MeshInstance" parent="runwaygrass7"]
 transform = Transform( 42.0084, 0, 0, 0, 1, 0, 0, 0, 9.66134, 0, 0, 0 )
@@ -527,6 +534,71 @@ mesh = SubResource( 22 )
 material/0 = SubResource( 23 )
 
 [node name="CollisionShape" type="CollisionShape" parent="runwaygrass7"]
+transform = Transform( 42.2186, 0, 0, 0, 1.09671, 0, 0, 0, 9.10352, 0, 0, 0 )
+shape = SubResource( 24 )
+
+[node name="runwaygrass8" type="StaticBody" parent="."]
+transform = Transform( 1.82993, 0, 0, 0, 1, 0.0018298, 0, -0.000942498, 1.94156, -2031.48, -2.91161, 8.86495 )
+
+[node name="MeshInstance" type="MeshInstance" parent="runwaygrass8"]
+transform = Transform( 42.0084, 0, 0, 0, 1, 0, 0, 0, 9.66134, 0, 0, 0 )
+mesh = SubResource( 22 )
+material/0 = SubResource( 23 )
+
+[node name="CollisionShape" type="CollisionShape" parent="runwaygrass8"]
+transform = Transform( 42.2186, 0, 0, 0, 1.09671, 0, 0, 0, 9.10352, 0, 0, 0 )
+shape = SubResource( 24 )
+
+[node name="runwaygrass9" type="StaticBody" parent="."]
+transform = Transform( 1.82993, 0, 0, 0, 1, 0.0018298, 0, -0.000942498, 1.94156, -2178.74, -2.91161, 8.86495 )
+
+[node name="MeshInstance" type="MeshInstance" parent="runwaygrass9"]
+transform = Transform( 42.0084, 0, 0, 0, 1, 0, 0, 0, 9.66134, 0, 0, 0 )
+mesh = SubResource( 22 )
+material/0 = SubResource( 23 )
+
+[node name="CollisionShape" type="CollisionShape" parent="runwaygrass9"]
+transform = Transform( 42.2186, 0, 0, 0, 1.09671, 0, 0, 0, 9.10352, 0, 0, 0 )
+shape = SubResource( 24 )
+
+[node name="runwaygrass10" type="StaticBody" parent="."]
+transform = Transform( 1.82993, 0, 0, 0, 1, 0.0018298, 0, -0.000942498, 1.94156, -2328.19, -2.91161, 8.86495 )
+
+[node name="MeshInstance" type="MeshInstance" parent="runwaygrass10"]
+transform = Transform( 42.0084, 0, 0, 0, 1, 0, 0, 0, 9.66134, 0, 0, 0 )
+mesh = SubResource( 22 )
+material/0 = SubResource( 23 )
+
+[node name="CollisionShape" type="CollisionShape" parent="runwaygrass10"]
+transform = Transform( 42.2186, 0, 0, 0, 1.09671, 0, 0, 0, 9.10352, 0, 0, 0 )
+shape = SubResource( 24 )
+
+[node name="runwaygrass11" type="StaticBody" parent="."]
+transform = Transform( 1.72437, 0.00031548, -0.649895, 0, 1, 0.0018298, 0.612529, -0.00088813, 1.82956, -2465.97, -2.91161, -16.4382 )
+
+[node name="MeshInstance" type="MeshInstance" parent="runwaygrass11"]
+transform = Transform( 42.0084, 0, -4.76837e-07, 0, 1, -3.72529e-09, 0, -2.91038e-11, 9.66134, 0.180664, -0.00087738, 0.479401 )
+mesh = SubResource( 22 )
+material/0 = SubResource( 23 )
+
+[node name="CollisionShape" type="CollisionShape" parent="runwaygrass11"]
+transform = Transform( 42.2186, 0, 0, 0, 1.09671, 0, 0, 0, 9.10352, 0, 0, 0 )
+shape = SubResource( 24 )
+
+[node name="runwaygrass12" type="StaticBody" parent="."]
+transform = Transform( 0.161811, 0.000938806, -1.93395, 0, 1, 0.0018298, 1.82276, -8.33403e-05, 0.171682, -2529.24, -2.91161, -104.393 )
+
+[node name="MeshInstance" type="MeshInstance" parent="runwaygrass12"]
+transform = Transform( 42.0084, 0, 0, 0, 1, 0, 0, 0, 9.66134, 0, 0, 0 )
+mesh = SubResource( 22 )
+material/0 = SubResource( 23 )
+
+[node name="MeshInstance2" type="MeshInstance" parent="runwaygrass12"]
+transform = Transform( 40.8775, -0.125933, -0.0267218, 17.7155, 0.972869, 0.383272, -0.0860224, -0.0105498, 9.65929, -82.8222, -18.9153, -0.457153 )
+mesh = SubResource( 22 )
+material/0 = SubResource( 23 )
+
+[node name="CollisionShape" type="CollisionShape" parent="runwaygrass12"]
 transform = Transform( 42.2186, 0, 0, 0, 1.09671, 0, 0, 0, 9.10352, 0, 0, 0 )
 shape = SubResource( 24 )
 
@@ -589,3 +661,15 @@ material/0 = SubResource( 23 )
 [node name="CollisionShape" type="CollisionShape" parent="runwaygrass6"]
 transform = Transform( 42.2186, 0, 0, 0, 1.09671, 0, 0, 0, 9.10352, 0, 0, 0 )
 shape = SubResource( 24 )
+
+[node name="StaticBody" type="StaticBody" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2548.91, -165.189, -526.198 )
+
+[node name="MeshInstance" type="MeshInstance" parent="StaticBody"]
+transform = Transform( 56.7455, 0, 0, 0, 1.18768, 0, 0, 0, 55.8703, 0, 0, 0 )
+mesh = SubResource( 25 )
+material/0 = SubResource( 26 )
+
+[node name="CollisionShape" type="CollisionShape" parent="StaticBody"]
+transform = Transform( 282.4, 0, 0, 0, 1.03023, 0, 0, 0, 271.301, 0, 0, 0 )
+shape = SubResource( 27 )
