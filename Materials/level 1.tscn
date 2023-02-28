@@ -93,7 +93,7 @@ transform = Transform( 45, 0, 0, 0, 0.5, 0, 0, 0, 42, 0.220043, -0.228998, 0.258
 shape = SubResource( 4 )
 
 [node name="ground11" type="StaticBody" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -485.175, -203.909, -0.160622 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -485.175, -195.08, -0.160622 )
 
 [node name="MeshInstance" type="MeshInstance" parent="ground11"]
 transform = Transform( 3, 0, 0, 0, 1, 0, 0, 0, 3, 0, -0.458336, 0 )
@@ -454,7 +454,7 @@ transform = Transform( 20.6801, 0, 0, 0, 1.13429, 0, 0, 0, 19.9156, 0, 0, 0 )
 shape = SubResource( 12 )
 
 [node name="dirt platform 2" type="StaticBody" parent="."]
-transform = Transform( 1.12564, 0, 0, 0, 1, 0, 0, 0, 1.39895, -574.723, -198.291, 0.263756 )
+transform = Transform( 1.12172, 0, 0, 0, 0.996521, 0, 0, 0, 1.39408, -574.723, -198.291, 0.263756 )
 
 [node name="MeshInstance" type="MeshInstance" parent="dirt platform 2"]
 transform = Transform( 19.3317, 0, 0, 0, 1, 0, 0, 0, 20.8455, 0, 0, 0 )
@@ -466,7 +466,7 @@ transform = Transform( 20.6801, 0, 0, 0, 1.13429, 0, 0, 0, 19.9156, 0, 0, 0 )
 shape = SubResource( 12 )
 
 [node name="dirt platform 3" type="StaticBody" parent="."]
-transform = Transform( 1.12564, 0, 0, 0, 1, 0, 0, 0, 1.39895, -684.608, -194.923, 0.0829735 )
+transform = Transform( 1.12564, 0, 0, 0, 1, 0, 0, 0, 1.39895, -654.036, -194.923, 0.0829735 )
 
 [node name="MeshInstance" type="MeshInstance" parent="dirt platform 3"]
 transform = Transform( 19.3317, 0, 0, 0, 1, 0, 0, 0, 20.8455, 0, 0, 0 )
@@ -474,6 +474,18 @@ mesh = SubResource( 9 )
 material/0 = SubResource( 18 )
 
 [node name="CollisionShape" type="CollisionShape" parent="dirt platform 3"]
+transform = Transform( 20.6801, 0, 0, 0, 1.13429, 0, 0, 0, 19.9156, 0, 0, 0 )
+shape = SubResource( 12 )
+
+[node name="dirt platform 7" type="StaticBody" parent="."]
+transform = Transform( 1.12564, 0, 0, 0, 1, 0, 0, 0, 1.39895, -731.007, -194.923, 0.0829735 )
+
+[node name="MeshInstance" type="MeshInstance" parent="dirt platform 7"]
+transform = Transform( 19.3317, 0, 0, 0, 1, 0, 0, 0, 20.8455, 0, 0, 0 )
+mesh = SubResource( 9 )
+material/0 = SubResource( 18 )
+
+[node name="CollisionShape" type="CollisionShape" parent="dirt platform 7"]
 transform = Transform( 20.6801, 0, 0, 0, 1.13429, 0, 0, 0, 19.9156, 0, 0, 0 )
 shape = SubResource( 12 )
 
