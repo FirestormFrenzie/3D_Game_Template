@@ -502,7 +502,7 @@ transform = Transform( 20.6801, 0, 0, 0, 1.13429, 0, 0, 0, 19.9156, 0, 0, 0 )
 shape = SubResource( 12 )
 
 [node name="dirt platform 5" type="StaticBody" parent="."]
-transform = Transform( 1.12564, 0, 0, 0, 1, 0, 0, 0, 1.39895, -867.945, -194.923, 102.676 )
+transform = Transform( 0.658388, 0, -1.13469, 0, 1, 0, 0.913012, 0, 0.818247, -880.248, -194.923, 8.38246 )
 
 [node name="MeshInstance" type="MeshInstance" parent="dirt platform 5"]
 transform = Transform( 19.3317, 0, 0, 0, 1, 0, 0, 0, 20.8455, 0, 0, 0 )
